@@ -1,113 +1,20 @@
-# Vakati Nanda Vardhan - Portfolio Website
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-A modern, responsive personal portfolio website built with Next.js 14 (App Router), React, and Tailwind CSS.
+# Run and deploy your AI Studio app
 
-## 🚀 Features
+This contains everything you need to run your app locally.
 
-- ✨ Modern, clean design with smooth animations
-- 📱 Fully responsive (mobile-first approach)
-- 🎨 Tailwind CSS for styling
-- ⚡ Fast page loads with Next.js 14
-- 🎯 SEO optimized
-- 🌐 Ready for Vercel deployment
+View your app in AI Studio: https://ai.studio/apps/temp/1
 
-## 🛠️ Tech Stack
+## Run Locally
 
-- **Framework:** Next.js 14 (App Router)
-- **UI Library:** React 18
-- **Styling:** Tailwind CSS
-- **Icons:** Lucide React
-- **Deployment:** Vercel
+**Prerequisites:**  Node.js
 
-## 📦 Installation
 
-1. **Clone or download this project**
-
-2. **Install dependencies:**
-```bash
-   npm install
-```
-
-3. **Run the development server:**
-```bash
-   npm run dev
-```
-
-4. **Open your browser:**
-   Navigate to `http://localhost:3000`
-
-## 📁 Project Structure
-```
-nanda-vardhan-portfolio/
-├── app/
-│   ├── components/
-│   │   ├── Navbar.js
-│   │   ├── Hero.js
-│   │   ├── About.js
-│   │   ├── Skills.js
-│   │   ├── Projects.js
-│   │   ├── Achievements.js
-│   │   ├── Contact.js
-│   │   └── Footer.js
-│   ├── layout.js
-│   ├── page.js
-│   └── globals.css
-├── public/
-├── package.json
-├── tailwind.config.js
-├── postcss.config.js
-└── next.config.js
-```
-
-## 🚀 Deployment on Vercel
-
-1. **Push your code to GitHub**
-
-2. **Go to [Vercel](https://vercel.com)**
-
-3. **Import your repository**
-
-4. **Deploy** (Vercel will auto-detect Next.js settings)
-
-Your portfolio will be live in minutes!
-
-## 🎨 Customization
-
-### Colors
-Edit `tailwind.config.js` to change the primary color scheme:
-```js
-colors: {
-  primary: {
-    // Customize these values
-    500: '#3b82f6',
-    600: '#2563eb',
-    // ...
-  }
-}
-```
-
-### Content
-- Update personal info in `app/components/Hero.js`
-- Modify projects in `app/components/Projects.js`
-- Edit skills in `app/components/Skills.js`
-
-## 📝 Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm start` - Start production server
-- `npm run lint` - Run ESLint
-
-## 📧 Contact
-
-- **Email:** vakatinandavardhan@gmail.com
-- **GitHub:** [@vakatinandavardhan](https://github.com/vakatinandavardhan)
-- **LinkedIn:** [Vakati Nanda Vardhan](https://www.linkedin.com/in/vakati-nanda-vardhan-7639b8262/)
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-Built with ❤️ by Vakati Nanda Vardhan
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
