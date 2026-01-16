@@ -8,8 +8,8 @@ The portfolio is designed to be **clean, modern, responsive**, and suitable for 
 ---
 
 ## 🔗 Live Website
-(Deployed on Vercel)  
-➡️ *Link available via repository deployments*
+[Deployed on Vercel](https://nanda-vardhan-portfolio.vercel.app/)
+
 
 ---
 
