@@ -87,21 +87,21 @@ export const ACHIEVEMENTS: Achievement[] = [
 export const EDUCATION_DATA = [
   {
     degree: "B.E Electronics and Communication Engineering",
-    institution: "R.M.K Engineering College, Chennai",
+    institution: "R.M.K Engineering College",
     period: "Oct 2022 - Present",
     score: "CGPA 8.14/10.0",
     location: "Chennai"
   },
   {
     degree: "Higher Secondary Education (BIEAP)",
-    institution: "Narayana Junior College, Nellore",
+    institution: "Narayana Junior College",
     period: "2020 - 2022",
     score: "Percentage 86.6%",
     location: "Nellore"
   },
   {
     degree: "Secondary Education (BSEAP)",
-    institution: "Ravindra Bharathi School, Nellore",
+    institution: "Ravindra Bharathi School",
     period: "2020",
     score: "Percentage 100%",
     location: "Nellore"
